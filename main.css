@@ -12670,7 +12670,12 @@ fieldset:disabled .btn {
         display: none !important
     }
 }
+/* My Css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
 
+}
 /* navbar */
 .navbar {
     border-radius: 10px;
@@ -12684,9 +12689,9 @@ fieldset:disabled .btn {
 }
 
 .navbar a {
-    /* font-weight: 600; */
     color: white;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar li:hover {
@@ -12697,6 +12702,7 @@ fieldset:disabled .btn {
 .navbar li {
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 /* carousel */
@@ -12724,6 +12730,8 @@ fieldset:disabled .btn {
 p,
 a {
     text-align: left;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .carousel-item::before {
