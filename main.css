@@ -12898,9 +12898,7 @@ a {
     letter-spacing: 2px;
 }
 
-.btn {
-    border-radius: 10px;
-}
+
 
 @media only screen and (max-width: 768px) {
     .feature {
@@ -13175,8 +13173,13 @@ a {
     max-width: 300px;
     float: right;
     border: 1px solid #374709;
+    border-radius: 50px;
 }
-
+.search:hover{
+    background-color: #374709;
+    color: white;
+    border-color: white;
+}
 /*end of product_description*/
 
 /* start of cart.html */
@@ -13217,10 +13220,10 @@ a {
     border-radius: 10px;
 }
 
-.cart-container .buy-now,
+/* .cart-container .buy-now,
 .remove {
     margin-top: 30px;
-}
+} */
 
 .cart-container h2 {
     color: #374709;
@@ -13235,5 +13238,22 @@ a {
     border: 1px solid white;
     color: white;
 }
-
+.cart-card{
+    width: 100%;
+    border: none;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cart-card .card-subtitle{
+    color :green;
+}
+.cart-card h5{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.form-control{
+    border-radius: 50px;
+}
 /*end of cart.html*/
