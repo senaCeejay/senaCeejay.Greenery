@@ -12769,8 +12769,7 @@ a {
 }
 
 .slider-btn .btn:hover {
-    color: black;
-    font-weight: 600;
+    color: white;
 }
 
 .p-3 span {
@@ -12804,7 +12803,15 @@ a {
     margin-left: 30px;
     margin-right: 30px;
 }
-
+.subscribe-btn{
+    background-color: #697739;
+    color: white;
+    padding: .7rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 100px;
+    border: none;
+}
 /* product */
 .product-plant h1 {
     font-weight: 700;
