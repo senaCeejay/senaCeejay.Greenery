@@ -12675,7 +12675,12 @@ fieldset:disabled .btn {
 
 body {
     font-family: 'Poppins', sans-serif;
-
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none; /*dissable clicking text*/
+    /* Standard syntax */
 }
 
 /* start of index.html*/
