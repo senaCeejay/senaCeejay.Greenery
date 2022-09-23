@@ -13115,7 +13115,12 @@ a {
     font-size: 40px;
     color: #374709;
 }
-
+.user-picture-review img{
+    max-width: 50px;
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 10px;
+}
 .icon-para img {
     padding-top: 18px;
 }
@@ -13132,6 +13137,7 @@ a {
 .buy-now:hover {
     background-color: #3e432e;
     color: white;
+    border-color: #3e432e;
 }
 
 .add-to-cart {
@@ -13191,7 +13197,7 @@ a {
 }
 
 .remove {
-    background-color: #FF6B6B;
+   border: 1px solid black;
 }
 
 .remove:hover {
