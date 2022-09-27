@@ -12926,7 +12926,10 @@ body {
     color: rgb(101, 183, 36);
     
 }
-
+.nav-link svg,i{
+    padding-bottom: 3px;
+    max-width: 40px;
+}
 .navbar li {
     padding-left: 10px;
     padding-right: 10px;
