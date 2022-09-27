@@ -12911,7 +12911,8 @@ body {
 .nav-item .dropdown {
     background-color: #697739;
 }
-
+.nav-item img{
+}
 .navbar a {
     color: white;
     font-weight: 500;
@@ -13115,11 +13116,13 @@ a {
     height: 600px;
     background: url(../images/cowboy-cactuss.webp) no-repeat center / cover;
     border-radius: 8px;
+    box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.75);
+
 }
 
 .right {
     width: 50%;
-    min-height: 400px;
+    min-height:300px;
     /* background-color: #374709; */
     background-color: rgb(0, 27, 12);
     display: flex;
@@ -13128,7 +13131,8 @@ a {
     padding: 30px;
     border-radius: 8px;
     color: white;
-    margin-left: -150px;
+    box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.75);
+    margin-left: -100px;
 }
 .right a{
     border-radius: 50px;
