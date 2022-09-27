@@ -13223,7 +13223,6 @@ a {
 /* This Code is for only the floating card in right bottom corner */
 /* ********************** */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 * {
     padding: 0;
@@ -13259,7 +13258,6 @@ a {
 }
 
 .plant-care-tips p {
-    font-family: "Montserrat";
     color: white;
     text-align: center;
     padding-top: 10px;
