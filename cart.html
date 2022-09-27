@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="senaCeejay.github.io/css/main.css" />
     <link rel="shortcut icon" href="icons/logo-removebg-preview.ico" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg mt-4 fixed-top nav1">
+    <nav class="navbar navbar-expand-lg fixed-top nav1">
         <div class="container-fluid">
-            <a class="navbar-brand nav-logo" href="index.html">
+            <a class="navbar-brand nav-logo" href="home.html">
                 <h5 class="the-greenery">The <span>Greenery</span></h5>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -26,7 +26,7 @@
                 <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="index.html"><i class="bi bi-house"><svg
+                            <a class="nav-link " aria-current="page" href="home.html"><i class="bi bi-house"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-house" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd"
@@ -40,9 +40,9 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="cart.html"><i class="bi bi-person"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-bag" viewBox="0 0 16 16">
+                            <a class="nav-link" style="color: rgb(101, 183, 36);" href="cart.html"><i
+                                    class="bi bi-person"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
                                         <path
                                             d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
                                     </svg></i> Cart</a>
@@ -59,7 +59,7 @@
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href="my-account.html">My Account</a></li>
                                 <li><a class="dropdown-item" href="my-purchase.html">My Purchase</a></li>
-                                <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                                <li><a class="dropdown-item" href="index.html">Logout</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -118,7 +118,8 @@
                             <p></p>
                         </div>
                     </div>
-                    <hr> <div class="row mb-3">
+                    <hr>
+                    <div class="row mb-3">
                         <div class="col-lg-2">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
@@ -134,7 +135,8 @@
                             <p></p>
                         </div>
                     </div>
-                    <hr> <div class="row mb-3">
+                    <hr>
+                    <div class="row mb-3">
                         <div class="col-lg-2">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
@@ -187,115 +189,58 @@
                 </path>
             </symbol>
         </svg>
+    </div>
 
-        <footer class="py-5 mx-4">
-            <div class="container border-top">
-                <div class="row mt-4">
-                    <div class="col-lg-4 col-md-4 col-12 mt-2">
-                        <h5 class="text-muted">@The Greenery</h5>
-                        <ul class="list-unstyled d-flex">
-                            <li class="ms-3"><a class="link-dark" target="_blank" href="https://twitter.com/"><svg
-                                        class="bi" width="24" height="24">
-                                        <use xlink:href="#twitter"></use>
-                                    </svg></a></li>
-                            <li class="ms-3"><a class="link-dark" target="_blank" href="https://instagram.com/"><svg
-                                        class="bi" width="24" height="24">
-                                        <use xlink:href="#instagram"></use>
-                                    </svg></a></li>
-                            <li class="ms-3"><a class="link-dark" target="_blank" href="https://facebook.com/"><svg
-                                        class="bi" width="24" height="24">
-                                        <use xlink:href="#facebook"></use>
-                                    </svg></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12 mt-2">
-                        <h5 class="text-muted">Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-                            <li class="nav-item mb-2"><a href="product.html"
-                                    class="nav-link p-0 text-muted">Products</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="index.html#feature-plant"
-                                    class="nav-link p-0 text-muted">Feature Plant</a></li>
-                            <li class="nav-item mb-2"><a href="index.html#plant-care-tips"
-                                    class="nav-link p-0 text-muted">Plant Care Tips</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12 mt-2">
-                        <form>
-                            <h5 class="text-muted">Weekly Update</h5>
-                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                <label for="newsletter1" class="visually-hidden">Email address</label>
-                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                                <button class="subscribe-btn" type="button">Link</button>
-                            </div>
-                        </form>
-                    </div>
+    <footer class="py-5 mx-4">
+        <div class="container border-top">
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-4 col-12 mt-2">
+                    <h5 class="text-muted">@The Greenery</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" target="_blank" href="https://twitter.com/"><svg
+                                    class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" target="_blank" href="https://instagram.com/"><svg
+                                    class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" target="_blank" href="https://facebook.com/"><svg
+                                    class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook"></use>
+                                </svg></a></li>
+                    </ul>
                 </div>
-
-                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p class="text-muted">© 2022 Company, Inc. All rights reserved.</p>
-
+                <div class="col-lg-4 col-md-4 col-12 mt-2">
+                    <h5 class="text-muted">Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="home.html" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="product.html"
+                                class="nav-link p-0 text-muted">Products</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="home.html#feature-plant"
+                                class="nav-link p-0 text-muted">Feature Plant</a></li>
+                        <li class="nav-item mb-2"><a href="home.html#plant-care-tips"
+                                class="nav-link p-0 text-muted">Plant Care Tips</a></li>
+                    </ul>
                 </div>
-        </footer>
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <form>
-        <div class="card card-body cart-container">
-            <div class="container">
-                <section>
-                    <div class="col-lg-2">
-                        <input type="checkbox" id="bothBox"> Select All<br>
-                        
-                        <div id="bothUnchecked">
-                            <input type="checkbox">
+                <div class="col-lg-4 col-md-4 col-12 mt-2">
+                    <form>
+                        <h5 class="text-muted">Weekly Update</h5>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="subscribe-btn" type="button">Link</button>
                         </div>
-                        <div id="bothChecked">
-                            <input type="checkbox" checked disabled>
-                        </div>
-                        <img src="images/cowboy-cactuss.webp" alt="">
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <h1>Cowboy Cactus</h1>
-                        <h2>₱ 100</h2>
-                        <p>Quantity "num"</p>
-                        <p></p>
-
-                    </div>
-            </div>
-            <hr>
-            </section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-12"></div>
+                    </form>
                 </div>
             </div>
-            <a class="btn buy-now" href="cart.html">Check Out</a>
-            <a class="btn remove" href="cart.html">Remove</a>
-        </div>
 
-    </form> -->
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p class="text-muted">© 2022 Company, Inc. All rights reserved.</p>
 
-
-
-
-
-
-
-
-
-
-
-
+            </div>
+    </footer>
 
 </body>
 

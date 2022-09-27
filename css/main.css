@@ -2611,8 +2611,8 @@ textarea.form-control-lg {
     -moz-appearance: none;
     appearance: none;
     -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-    print-color-adjust: exact
+    accent-color: exact;
+    print-color-adjust: exact;
 }
 
 .form-check-input[type=checkbox] {
@@ -12748,9 +12748,7 @@ body {
     font-weight: 500;
 }
 
-.login-btn:hover {
-    /* background-color: rgb(101, 183,36); */
-}
+
 
 .left-form .form-group:focus {
     color: white;
@@ -12850,9 +12848,7 @@ body {
     font-weight: 500;
 }
 
-.signup-container .login-btn:hover {
-    /* background-color: rgb(101, 183,36); */
-}
+
 
 .left-form .form-group:focus {
     color: white;
@@ -12895,16 +12891,17 @@ body {
 
 }
 
-
 /* start of index.html*/
 
 /* navbar */
 .navbar {
-    border-radius: 10px;
+    border-radius: 50px;
     margin: 0 5% 0 5%;
     opacity: 0.9;
     filter: (opacity=50);
-    background-color: #697739;
+    /* background-color: #697739; */
+    background-color: rgb(0, 27, 12);
+    margin-top: 10px;
     /* height: 45px; */
     /* box-shadow: 0px 1px 15px 0px rgba(105, 119, 57, 0.75);
     -webkit-box-shadow: 0px 1px 15px 0px rgba(105, 119, 57, 0.75);
@@ -12920,10 +12917,14 @@ body {
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
-
+.nav-link a:hover{
+    color: rgb(101, 183, 36);
+}
 .navbar li:hover {
     background-color: white;
     border-radius: 10px;
+    color: rgb(101, 183, 36);
+    
 }
 
 .navbar li {
@@ -12931,7 +12932,12 @@ body {
     padding-right: 10px;
 
 }
-
+@media only screen and (max-width: 768px) {
+    .nav1{
+        margin-top:10px;
+        border-radius: 10px;
+    }
+}
 .nav-logo h5 {
     margin-bottom: 0;
 }
@@ -13006,9 +13012,10 @@ a {
 }
 
 .slider-btn .btn {
-    background-color: #697739;
+    /* background-color: #697739; */
+    background-color: rgb(0, 27, 12);
     color: white;
-    border-radius: 2;
+    border-radius: 50px;
     padding: .7rem 2rem;
     font-size: 1rem;
     font-weight: 600;
@@ -13020,7 +13027,10 @@ a {
 
 .p-3 span {
     font-weight: 700;
-    color: #697739;
+    /* color: #697739; */
+    /* color: rgb(101, 183, 36); */
+    color: rgb(23, 69, 22);
+
 }
 
 .col-md-4 {
@@ -13041,7 +13051,13 @@ a {
     opacity: 0.9;
     filter: (opacity=50);
 }
-
+@media only screen and (max-width: 768px) {
+    .overlap {
+        margin-top: -120px;
+        opacity: 0.9;
+        filter: (opacity=50);
+    }
+}
 .card-container {
     box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.75);
@@ -13051,7 +13067,8 @@ a {
 }
 
 .subscribe-btn {
-    background-color: #697739;
+    /* background-color: #697739; */
+    background-color: rgb(0, 27, 12);
     color: white;
     padding: .7rem 2rem;
     font-size: 1rem;
@@ -13066,7 +13083,11 @@ a {
     margin-top: 40px;
     font-weight: 700;
     font-size: 70px;
-    color: #374709;
+    /* color: #374709; */
+    /* color: rgb(0, 27, 12); */
+    color: rgb(23, 69, 22);
+    /* color: rgb(101, 183, 36); */
+
 }
 
 .feature-section {
@@ -13096,7 +13117,8 @@ a {
 .right {
     width: 50%;
     min-height: 400px;
-    background-color: #374709;
+    /* background-color: #374709; */
+    background-color: rgb(0, 27, 12);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13105,7 +13127,9 @@ a {
     color: white;
     margin-left: -150px;
 }
-
+.right a{
+    border-radius: 50px;
+}
 .right h1 {
     font-size: 40px;
     font-weight: lighter;
@@ -13158,7 +13182,7 @@ a {
 
     .feature-plant h1 {
         font-size: 50px;
-        color: #374709;
+        /* color: #374709; */
         margin-bottom: 10px
     }
 }
@@ -13185,7 +13209,8 @@ a {
 
 /* plant care tips */
 .plant-care-tips {
-    background-color: #374709;
+    /* background-color: #374709; */
+    background-color: rgb(0, 27, 12);
     border-radius: 10px;
     margin-top: 40px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -13224,7 +13249,10 @@ a {
     font-size: 70px;
     font-weight: 700;
     margin-top: 40px;
-    color: #374709;
+    /* color: #374709; */
+    /* color: rgb(101, 183, 36); */
+    color: rgb(23, 69, 22);
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -13239,7 +13267,8 @@ a {
 .product-plant h1 {
     font-weight: 700;
     font-size: 60px;
-    color: #374709;
+    /* color: #374709; */
+    color: rgb(23, 69, 22);
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -13326,7 +13355,8 @@ a {
 .description h1 {
     font-weight: 700;
     font-size: 60px;
-    color: #374709;
+    /* color: #374709; */
+    color: rgb(23, 69, 22);
     margin-top: 100px;
     margin-bottom: 50px;
 
@@ -13349,13 +13379,16 @@ a {
 .description-container h1 {
     font-weight: 600;
     font-size: 50px;
-    color: #374709;
+    /* color: #374709; */
+    color: rgb(23, 69, 22);
+
 }
 
 .description-container h2 {
     font-weight: 500;
     font-size: 40px;
-    color: #374709;
+    /* color: #374709; */
+    color: rgb(101, 183, 36);
 }
 
 .user-picture-review img {
@@ -13374,18 +13407,22 @@ a {
 }
 
 .buy-now {
-    background-color: #374709;
+    /* background-color: #374709; */
+    background-color: rgb(0, 27, 12);
+    border-radius: 50px;
     color: white;
 }
 
 .buy-now:hover {
-    background-color: #3e432e;
+    /* background-color: #3e432e; */
+    background-color: rgb(23, 69, 22);
     color: white;
     border-color: #3e432e;
 }
 
 .add-to-cart {
     border: 1px solid black;
+    border-radius: 50px;
 }
 
 .add-to-cart:hover {
@@ -13406,7 +13443,8 @@ a {
 }
 
 .search:hover {
-    background-color: #374709;
+    /* background-color: #374709; */
+    background-color: rgb(0, 27, 12);
     color: white;
     border-color: white;
 }
@@ -13426,14 +13464,16 @@ a {
 
 .cart-container h1 {
     font-weight: 700;
-    color: #374709;
+    /* color: #374709; */
+    color: rgb(23, 69, 22);
 
 }
 
 .my-cart h1 {
     font-weight: 700;
     font-size: 60px;
-    color: #374709;
+    /* color: #374709; */
+    color: rgb(23, 69, 22);
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -13459,12 +13499,15 @@ a {
 } */
 
 .cart-container h2 {
-    color: #374709;
+    /* color: #374709; */
+    color: rgb(101, 183, 36);
+
 }
 
 .remove {
     border: 1px solid black;
     margin-left: 10px;
+    border-radius: 50px;
 }
 
 .remove:hover {
@@ -13527,7 +13570,9 @@ a {
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     background-color: white;
 }
-
+.Edit{
+    background-color: rgb(0, 27, 12);
+}
 input[type="radio"]:checked {
     background-color: green;
 }
@@ -13547,7 +13592,7 @@ input[type="radio"]:checked {
 }
 @media only screen and (max-width: 768px) {
     .upload-profile-picture{
-        margin-top: -500px;
+        margin-top: -550px;
         
         z-index: 2;
     }
