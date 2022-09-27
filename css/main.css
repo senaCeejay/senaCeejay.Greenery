@@ -12922,7 +12922,7 @@ body {
 }
 .navbar li:hover {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 50px;
     color: rgb(101, 183, 36);
     
 }
