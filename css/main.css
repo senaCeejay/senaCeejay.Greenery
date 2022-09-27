@@ -2635,7 +2635,7 @@ textarea.form-control-lg {
 
 .form-check-input:checked {
     background-color: green;
-    border-color:green;
+    border-color: green;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -12911,37 +12911,58 @@ body {
 .nav-item .dropdown {
     background-color: #697739;
 }
-.nav-item img{
-}
+
+
+
 .navbar a {
     color: white;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
     color: rgb(101, 183, 36);
 }
+
 .navbar li:hover {
     background-color: white;
     border-radius: 50px;
     color: rgb(101, 183, 36);
-    
 }
-.nav-link svg,i{
+
+.nav-link svg,
+i {
     padding-bottom: 3px;
     max-width: 40px;
 }
+
 .navbar li {
     padding-left: 10px;
     padding-right: 10px;
-
 }
+
+.nav-drop ul {
+    background-color: rgb(0, 27, 12);
+    border-radius: 10px;
+}
+.dropdown ul {
+    background-color: rgb(0, 27, 12);
+}
+
 @media only screen and (max-width: 768px) {
-    .nav1{
-        margin-top:10px;
+    .nav1 {
+        margin-top: 10px;
         border-radius: 10px;
     }
+    .dropdown ul {
+        background-color: rgb(0, 27, 12);
+    }
+    .navbar li:hover {
+        border-radius: 10px;
+        color: rgb(101, 183, 36);
+    }
 }
+
 .nav-logo h5 {
     margin-bottom: 0;
 }
@@ -13055,6 +13076,7 @@ a {
     opacity: 0.9;
     filter: (opacity=50);
 }
+
 @media only screen and (max-width: 768px) {
     .overlap {
         margin-top: -120px;
@@ -13062,6 +13084,7 @@ a {
         filter: (opacity=50);
     }
 }
+
 .card-container {
     box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.75);
@@ -13122,7 +13145,7 @@ a {
 
 .right {
     width: 50%;
-    min-height:300px;
+    min-height: 300px;
     /* background-color: #374709; */
     background-color: rgb(0, 27, 12);
     display: flex;
@@ -13134,9 +13157,11 @@ a {
     box-shadow: 0px 0px 24px -6px rgba(0, 0, 0, 0.75);
     margin-left: -100px;
 }
-.right a{
+
+.right a {
     border-radius: 50px;
 }
+
 .right h1 {
     font-size: 40px;
     font-weight: lighter;
@@ -13489,9 +13514,9 @@ a {
     .my-cart h1 {
         font-size: 40px;
         margin-bottom: 30px;
-        
+
     }
-  
+
 }
 
 .cart-container img {
@@ -13544,26 +13569,32 @@ a {
 .form-control {
     border-radius: 50px;
 }
+
 #bothChecked {
     display: none;
-  }
- #bothBox{
+}
+
+#bothBox {
     margin-bottom: 30px;
- }
-#flexCheckChecked{
+}
+
+#flexCheckChecked {
     margin-left: 3px;
     margin-bottom: 10px;
 }
-.form-check{
+
+.form-check {
     padding-left: 0;
 }
-  #bothBox:checked ~ #bothChecked{
+
+#bothBox:checked~#bothChecked {
     display: block;
-  }
-  
-  #bothBox:checked ~ #bothUnchecked{
+}
+
+#bothBox:checked~#bothUnchecked {
     display: none;
-  }
+}
+
 /*end of cart.html*/
 
 /* my-account-container.html*/
@@ -13577,9 +13608,11 @@ a {
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     background-color: white;
 }
-.Edit{
+
+.Edit {
     background-color: rgb(0, 27, 12);
 }
+
 input[type="radio"]:checked {
     background-color: green;
 }
@@ -13590,23 +13623,27 @@ input[type="radio"]:checked {
     box-shadow: none;
 }
 
-.my-account-container label{
+.my-account-container label {
     margin-top: 10px;
 }
-.upload-profile-picture{
+
+.upload-profile-picture {
     margin-left: auto;
     margin-right: auto;
 }
+
 @media only screen and (max-width: 768px) {
-    .upload-profile-picture{
+    .upload-profile-picture {
         margin-top: -550px;
-        
+
         z-index: 2;
     }
-    .my-account-form{
+
+    .my-account-form {
         padding-top: 300px;
     }
 }
+
 /* my-purchase-container */
 .my-purchase-container {
     margin-top: 100px;
@@ -13619,6 +13656,7 @@ input[type="radio"]:checked {
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     background-color: white;
 }
+
 .scrollmenu {
     overflow: auto;
     white-space: nowrap;
@@ -13642,21 +13680,26 @@ input[type="radio"]:checked {
     padding-left: 70px;
     padding-right: 70px;
 }
-.scrollmenu a:hover{
+
+.scrollmenu a:hover {
     border-bottom: 1px solid green;
     color: green;
 }
-.scrollmenu a:active{
+
+.scrollmenu a:active {
     color: green;
 }
-.in-product span{
+
+.in-product span {
     padding-top: 100px;
 }
+
 @media only screen and (max-width: 768px) {
-    .my-purchase-container{
+    .my-purchase-container {
         height: 55px;
         padding-top: 15px;
     }
+
     div.scrollmenu a {
         display: inline-block;
         color: black;
