@@ -13110,7 +13110,7 @@ a {
 .left {
     width: 50%;
     height: 600px;
-    background: url(images/cowboy-cactuss.webp) no-repeat center / cover;
+    background: url(../images/cowboy-cactuss.webp) no-repeat center / cover;
     border-radius: 8px;
 }
 
