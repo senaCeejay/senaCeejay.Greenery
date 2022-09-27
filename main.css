@@ -2634,8 +2634,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #0d6efd;
-    border-color: #0d6efd
+    background-color: green;
+    border-color:green;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -13442,7 +13442,9 @@ a {
     .my-cart h1 {
         font-size: 40px;
         margin-bottom: 30px;
+        
     }
+  
 }
 
 .cart-container img {
@@ -13462,6 +13464,7 @@ a {
 
 .remove {
     border: 1px solid black;
+    margin-left: 10px;
 }
 
 .remove:hover {
@@ -13491,7 +13494,26 @@ a {
 .form-control {
     border-radius: 50px;
 }
-
+#bothChecked {
+    display: none;
+  }
+ #bothBox{
+    margin-bottom: 30px;
+ }
+#flexCheckChecked{
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+.form-check{
+    padding-left: 0;
+}
+  #bothBox:checked ~ #bothChecked{
+    display: block;
+  }
+  
+  #bothBox:checked ~ #bothUnchecked{
+    display: none;
+  }
 /*end of cart.html*/
 
 /* my-account-container.html*/
@@ -13516,7 +13538,23 @@ input[type="radio"]:checked {
     box-shadow: none;
 }
 
-
+.my-account-container label{
+    margin-top: 10px;
+}
+.upload-profile-picture{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 768px) {
+    .upload-profile-picture{
+        margin-top: -500px;
+        
+        z-index: 2;
+    }
+    .my-account-form{
+        padding-top: 300px;
+    }
+}
 /* my-purchase-container */
 .my-purchase-container {
     margin-top: 100px;
