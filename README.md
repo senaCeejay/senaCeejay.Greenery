@@ -1,7 +1,7 @@
 # 🌳The Greenery
 Hello! This is my website, It's Coded from scratch.
 # 💻To Visit the site, click the link below
-https://senaceejay.github.io/
+https://senaceejay.github.io/senaCeejay.Greenery/
 # 💼About the project
 i'm currently learning about Frontend Web Development
 This is our mini-project in KodeGo Bootcamp.
